@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Sol_Demo.Controls"
+             x:Class="Sol_Demo.MainPage">
+
+    <StackLayout BackgroundColor="Transparent">
+        <local:CustomViewDemo>
+            <local:CustomViewDemo.CustomContent>
+                <StackLayout>
+                    <Label Text="Hello Kishor"></Label>
+                    <Label Text="Hello Eshaan"></Label>
+                </StackLayout>
+            </local:CustomViewDemo.CustomContent>
+        </local:CustomViewDemo>
+
+        <local:CardView CardColor="Orange" BorderColor="IndianRed">
+            <local:CardView.ViewContent>
+                <StackLayout>
+                    <Label Text="Hello Kishor"></Label>
+                    <Label Text="Hello Eshaan"></Label>
+                </StackLayout>
+            </local:CardView.ViewContent>
+        </local:CardView>
+    </StackLayout>
+</ContentPage>

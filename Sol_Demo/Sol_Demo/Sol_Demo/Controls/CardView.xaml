@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sol_Demo.Controls.CardView"
+             x:Name="this">
+
+    <Frame
+        BindingContext="{x:Reference this}"
+        BackgroundColor="{Binding CardColor}"
+        BorderColor="{Binding BorderColor}"
+        CornerRadius="5"
+        HasShadow="True"
+        Padding="10"
+        VerticalOptions="FillAndExpand"
+        HorizontalOptions="FillAndExpand"
+        Margin="10,10,10,10"
+        >
+
+        <ContentView x:Name="viewContent">
+        </ContentView>
+    </Frame>
+</ContentView>
