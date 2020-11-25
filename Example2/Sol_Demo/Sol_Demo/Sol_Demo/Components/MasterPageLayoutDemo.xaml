@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sol_Demo.Components.MasterPageLayoutDemo"
+             x:Name="this">
+
+    <Frame>
+        <StackLayout>
+            <Label Text="Header"></Label>
+            <ContentView Content="{Binding Path=MasterLayoutContent, Source={x:Reference this}}"></ContentView>
+            <Label Text="Footer"></Label>
+        </StackLayout>
+    </Frame>
+</ContentView>

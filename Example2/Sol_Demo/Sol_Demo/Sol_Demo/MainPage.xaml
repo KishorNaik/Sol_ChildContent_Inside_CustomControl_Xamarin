@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:component="clr-namespace:Sol_Demo.Components"
+             x:Class="Sol_Demo.MainPage">
+
+    <StackLayout>
+        <component:MasterPageLayoutDemo>
+            <component:MasterPageLayoutDemo.MasterLayoutContent>
+                <StackLayout>
+                    <Label Text="Main Body"></Label>
+                </StackLayout>
+            </component:MasterPageLayoutDemo.MasterLayoutContent>
+        </component:MasterPageLayoutDemo>
+    </StackLayout>
+</ContentPage>
